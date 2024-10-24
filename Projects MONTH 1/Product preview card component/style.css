@@ -19,6 +19,10 @@ body{
     height: 450px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .box{
@@ -109,6 +113,7 @@ button:hover{
 
 @media screen and (max-width: 600px) {
     .product{
+        background-image: url(./images/image-product-mobile.jpg);
         height: 240px;
         width: 340px;
         border-bottom-left-radius: 0;

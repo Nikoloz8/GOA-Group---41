@@ -19,6 +19,14 @@ body{
     width: 1110px;
 }
 
+.box1-box2-container{
+    display: flex;
+}
+
+.box4-box5-container{
+    display: flex;
+}
+
 .box1{
     background-color: #733fc8;
     border-radius: 8px;

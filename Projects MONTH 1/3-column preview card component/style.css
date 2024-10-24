@@ -58,9 +58,10 @@ h1{
 p{
     margin-top: 40px;
     font-family: Lexend Deca;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     color: #ffffffBF;
+    line-height: 1.5;
     text-align: left;
 }
 
