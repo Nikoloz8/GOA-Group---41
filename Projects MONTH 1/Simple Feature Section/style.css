@@ -19,6 +19,14 @@ body{
     align-items: center;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .content{
     width: 450px;
     text-align: center;
@@ -167,11 +175,7 @@ p{
     }
 
     .container{
-        display: flex;
         height: 230vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         overflow: hidden;
     }
 }
