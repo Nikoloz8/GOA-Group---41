@@ -5,7 +5,7 @@
 
 body{
     background-color: #121315;
-    font-family: Outfit;
+    font-family: Montserrat;
 }
 
 .container{
@@ -56,7 +56,7 @@ body{
 .title p{
     font-weight: 400;
     color: #787c85;
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 16px;
     line-height: 1.4;
 }
@@ -96,6 +96,10 @@ button:hover{
     width: 270px;
     height: 255px;
     margin: 13px;
+}
+
+.coffee-latte, .chocolate-coffee, .valentine-special{
+    margin-top: 50px;
 }
 
 .cappuccino-img-container, .house-coffee-img-container, .espresso-img-container, .coffee-latte-img-container, .chocolate-coffee-img-container, .valentine-special-img-container{
