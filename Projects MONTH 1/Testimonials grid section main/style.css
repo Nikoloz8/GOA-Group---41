@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,27 +12,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    height: 100vh;
 }
 
 .container-elements{
-    display: flex;
     flex-wrap: wrap;
-    width: 1110px;
 }
 
 .box1-box2-container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box4-box5-container{
     display: flex;
+    margin-top: 24px;
+    flex-wrap: wrap;
 }
 
 .box1{
     background-color: #733fc8;
     border-radius: 8px;
     height: 280px;
-    width: 476px;
+    width: 540px;
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
@@ -40,7 +44,7 @@ body{
 .box2{
     background-color: #49556b;
     height: 280px;
-    width: 191px;
+    width: 255px;
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
@@ -49,9 +53,9 @@ body{
 
 .box3{
     background-color: #ffffff;
-    width: 191px;
+    width: 255px;
     border-radius: 8px;
-    height: 572px;
+    height: 582px;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -60,7 +64,7 @@ body{
     background-color: #ffffff;
     height: 280px;
     border-radius: 8px;
-    width: 191px;
+    width: 255px;
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
@@ -70,7 +74,7 @@ body{
     background-color: #18202d;
     height: 280px;
     border-radius: 8px;
-    width: 476px;
+    width: 540px;
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
@@ -115,13 +119,66 @@ body{
 h2{
     margin-top: 20px;
     font-family: Barlow Semi Condensed;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
+    line-height: 1.3;
 }
 
 p{
-    color: #b89af4;
+    color: #b9c4d6;
     font-family: Barlow Semi Condensed;
     font-size: 12px;
     margin-top: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.box3 h2, .box4 h2{
+    color: #424b50
+}
+
+.box3 h2, .box4 h3{
+    color: #3e404d;
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        height: 270vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .box1-box2-container, .box4-box5-container{
+        width: 325px;
+        margin: 0;
+    }
+
+    .box1, .box2, .box3, .box4, .box5{
+        width: 325px;
+        margin: 0;
+    }
+
+    .box3{
+        height: 440px;
+    }
+
+    .box2, .box3, .box4, .box5{
+        margin-top: 24px;
+    }
+
+    .box1{
+        height: 440px;
+    }
+
+    .box2{
+        height: 240px;
+    }
+
+    .box4{
+        height: 220px;
+    }
+
+    .box5{
+        height: 380px;
+    }
 }
