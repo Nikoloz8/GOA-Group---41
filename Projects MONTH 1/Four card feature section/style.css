@@ -122,7 +122,7 @@ h3{
     height: 100%;
     display: flex;
     justify-content: right;
-    align-items: flex-end;
+    align-items: end;
 }
 
 @media screen and (max-width: 800px) {

@@ -25,6 +25,10 @@ body{
 }
 
 .illustration-article{
+    background-image: url(./images/illustration-article.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
     width: 336px;
     height: 201px;

@@ -39,6 +39,7 @@ body{
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
+    box-shadow: 5px 20px 100px #a1b1cf;
 }
 
 .box2{
@@ -49,6 +50,7 @@ body{
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
+    box-shadow: 5px 20px 100px #a1b1cf;
 }
 
 .box3{
@@ -58,6 +60,7 @@ body{
     height: 582px;
     padding-left: 32px;
     padding-right: 32px;
+    box-shadow: 5px 20px 100px #a1b1cf;
 }
 
 .box4{
@@ -68,6 +71,7 @@ body{
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
+    box-shadow: 5px 20px 100px #a1b1cf;
 }
 
 .box5{
@@ -78,6 +82,8 @@ body{
     padding-left: 32px;
     padding-right: 32px;
     margin-right: 30px;
+    box-shadow: 5px 20px 100px #a1b1cf;
+
 }
 
 .image{
