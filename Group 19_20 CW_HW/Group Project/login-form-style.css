@@ -6,9 +6,7 @@
 }
 
 body{
-    background-image: url(./img/bg-image.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient( #1e3c72, #2a5298, #243b55);
     height: 100vh;
 }
 
