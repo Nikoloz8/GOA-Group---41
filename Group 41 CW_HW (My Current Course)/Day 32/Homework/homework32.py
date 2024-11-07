@@ -28,7 +28,7 @@ def simply_calculator(num1, num2, operator):
             return num1 * num2
         elif:
              if num2 == 0:
-                  return "Error: Division on 0 is impossible!"
+                  return "Error: Divide on 0 is impossible!"
              else:
                 return num1 / num2
         else:

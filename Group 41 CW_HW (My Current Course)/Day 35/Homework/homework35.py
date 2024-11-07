@@ -38,7 +38,7 @@ numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90]
 
 # Use the append() function to add the number 100 to the end of the list.
 
-numbers.append(100) #გამოიყენება ლისთში ელემენტების ჩასამაყებლად(ბოლოში)
+numbers.append(100) #გამოიყენება ლისთში ელემენტების ჩასამატებლად(ბოლოში)
 
 # Use the insert() function to add the number 5 at the beginning of the list.
 
