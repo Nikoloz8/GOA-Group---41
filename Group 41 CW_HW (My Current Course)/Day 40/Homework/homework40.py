@@ -44,3 +44,15 @@ def averages(arr):
         avg = (arr[i] + arr[i + 1]) / 2
         result.append(avg)
     return result
+
+
+def get_issuer(number):
+    if len((str(number))) == 15:
+        return "AMEX"
+    elif str(number)[0] + str(number)[1] == "51":
+        return "Mastercard"
+    elif str(str(number)[0]) + str(str(number)[1]) + str(str(number)[2]) + str(str(number)[3]) == "6011":
+        return "Discover"
+    elif int(str(number)[0]) == 4:
+        return "VISA"
+print(get_issuer(6011))

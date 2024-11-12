@@ -44,7 +44,18 @@ def find_average(nums):
 
 # https://www.codewars.com/kata/525e5a1cb735154b320002c8/train/python
 
-#skip droebit
+#ამ Kata-ს აქვს პრობლემები, ერრორებს არ აჩვენებს სწორად. ნახევრად დასრულებული: 
+
+def triangular(n):
+    sum = 0
+    n = n + 1
+    if n < 0:
+        return 0
+    else:
+        for i in range(n):
+            n = n - 1
+            sum = sum + n
+    return sum
 
 #https://www.codewars.com/kata/5861d28f124b35723e00005e/train/python
 
@@ -56,4 +67,25 @@ def zero_fuel(distance_to_pump, mpg, fuel_left):
     
 # https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b/train/python
 
-#skip droebit
+def human_years_cat_years_dog_years(human_years):
+    list = [0 , 0 , 0]
+    list[0] = human_years
+    for i in range(human_years):
+        human_years = human_years - 1
+        if human_years > 2:
+            list[1] = list[1] + 5
+        elif human_years == 2:
+            list[1] = list[1] + 9
+        elif human_years == 1:
+            list[1] = list[1] + 15
+    for i in range(human_years):
+        human_years = human_years - 1
+        if human_years > 2:
+            list[2] = list[2] + 4
+        elif human_years == 2:
+            list[2] = list[2] + 9
+        elif human_years == 1:
+            list[2] = list[2] + 15
+    return list  #ესეც დაუსრულებელია გაუგებრობის გამო. 
+            
+print(human_years_cat_years_dog_years(5))
