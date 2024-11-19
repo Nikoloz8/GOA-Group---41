@@ -37,3 +37,4 @@ def reverse_seq(n):
         if n != 0:
             list.append(n)
     return list
+
