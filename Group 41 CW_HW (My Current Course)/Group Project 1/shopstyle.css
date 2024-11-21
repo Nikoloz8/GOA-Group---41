@@ -41,302 +41,162 @@ ul{
 a{
     text-decoration: none;
     font-size: 12px;
-    color: #ffffff;
+    color: #000000;
 }
 
 li{
     list-style-type: none;
 }
 
-.background-photo-container{
-    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1145636/settings_images/UNxILYD7SteOv9DBYb6L_book.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 680px;
-}
-
-.vegan-book{
-    width: 100%;
-    height: 650px;
-    background-color: #ffffff;
-    padding: 50px 200px 50px 200px;
-}
-
-.text-video-container{
+main{
     display: flex;
-    height: 380px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.category-choices{
+    height: 550px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.text{
-    width: 580px;
+.category-choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
 }
 
-.text h1{
-    color: rgb(103, 43, 146);
-    font-family: Arvo;
-    font-size: 30px;
+.category-choice h4, .category-title h4{
+    color: rgb(255, 91, 0);
+    font-family: Josefin Sans;
+    font-size: 24px;
     font-weight: 400;
-    width: 400px;
 }
 
-.text p{
-    font-family: Quattrocento Sans;
-    color: #89898d;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
-    margin-top: 32px;
+.category-choice img{
+    width: 100px;
+    height: 100px;
+    margin: 16px 0 8px 0;
 }
 
-.video{
-    height: 380px;
-    width: 520px;
-    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1145636/settings_images/Rp5ffaNmQYOUoUlvkbs7_6c4I4uEBSHyXRppMD0Sp_viddd.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.video:hover{
+.category-choice img:hover{
     filter: brightness(1.2);
 }
 
-.text-video-container a{
-    margin-left: 100px;
+.choices-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1150px;
+    flex-wrap: wrap;
+    margin: 132px 0 48px 0;
+    height: 350px;
+
 }
 
 .line{
     width: 100%;
-    height: 1px;
-    background-color: #cccccc;
+    height: 2px;
+    background-color: rgb(255, 91, 0);
 }
 
-.lines-get-it{
-    margin-top: 16px;
+.category-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+
 }
 
-.lines-get-it h2{
+.category-title img{
+    width: 65px;
+    height: 65px;
+}
+
+.products{
     width: 100%;
-    text-align: center;
-    padding: 10px;
-    color: #f2591d;
-    font-family: Arvo;
-    font-size: 30px;
-    font-weight: 400;
 }
 
-.amazon{
+.category-title-container{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
 }
 
-.amazon img{
-    width: 300px;
-    margin-top: 16px;
+.product{
+    width: 250px;
+    height: 400px;
+    border: 1px solid rgb(228, 228, 228);
+    margin: 0 15px 25px 15px;
 }
 
-.amazon img:hover{
+.product:hover{
+    box-shadow: 0px 0px 5px #535353;
+}
+
+.product img{
+    width: 100%;
+    height: 300px;
+}
+
+.product img:hover{
     filter: brightness(1.2);
 }
 
-.purchase-button-container-orange, .purchase-button-container-purple, .purchase-button-container-orange-bottom{
-    width: 100%;
-    height: 130px;
-    background-color: rgb(243, 101, 35);
+.product h3{
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 18px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #ffffff;
+    line-height: 1.3;
 }
 
-.purchase-button-container-orange button, .purchase-button-container-purple button, .purchase-button-container-orange-bottom button{
-    width: 300px;
-    height: 70px;
-    background-color:rgb(243, 101, 35);
-    border: solid 2px #ffffff;
-    outline: none;
-    border-radius: 8px;
-    font-family: Arvo;
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.comments-gallery{
-    width: 100%;
+.products-container1{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid #ffffff;;    
-}
-
-.comments-gallery img{
-    width: 33.33%;
-    border-top: 1px solid #000000;    
-}
-
-.comment1, .comment3, .comment5{
-    width: 100%;
-    height: 450px;
-    background-color: #f0eaf4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 200px 100px 200px;
-}
-
-.comment3{
-    height: 340px;
-}
-
-.avatar-stars-container1{
-    height: 350px;
-}
-
-.avatar-stars-container1 img{
-    height: 100%;
-    margin-top: 20px;
-    margin-right: 30px;
-}
-
-.comment1-text-container h2{
-    color: rgb(103, 43, 146);
-    font-family: Arvo;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.comment1-text-container p{
-    color: rgb(137, 137, 137);
-    font-family: Quattrocento Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 16px;
-}
-
-.comment2, .comment4{
-    width: 100%;
-    height: 430px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 150px 100px 150px;
-}
-
-.avatar-stars-container2{
-    height: 330px;
-}
-
-.avatar-stars-container2 img{
-    height: 100%;
-}
-
-
-.comment2-text-container{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    height: 100%;
-
-}
-
-.comment2-text-container h2, .comment4-text-container h2{
-    color: rgb(103, 43, 146);
-    font-family: Arvo;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.comment2-text-container p, .comment4-text-container p{
-    color: rgb(137, 137, 137);
-    font-family: Quattrocento Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 16px;
-    width: 840px;
-}
-
-.comment3 img, .comment5 img{
-    height: 200px;
-    position: relative;
-}
-
-.comment3-text-container h2, .comment5-text-container h2{
-    color: rgb(103, 43, 146);
-    font-family: Arvo;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.comment3-text-container p, .comment5-text-container p{
-    color: rgb(137, 137, 137);
-    font-family: Quattrocento Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 16px;
-}
-
-.comment4{
-    height: 450px;
-}
-
-.avatar-stars-container4 img{
-    height: 330px;
-}
-
-.comment4-text-container{
-    width: 850px;
-}
-
-.comment5 img{
-    position: relative;
-    top: 20px;
-}
-
-.comment5{
-    height: 330px;
-}
-
-.purchase-button-container-purple{
-    background-color: rgb(101, 45, 144);
-    border: none;
-}
-
-.purchase-button-container-purple button{
-    background-color: rgb(101, 45, 144);
-}
-
-.gallery{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    padding-top: 16px;
-}
-
-.gallery-container{
-    width: 930px;
-}
-
-.gallery-container img{
-    width: 450px;
-    height: 550px;
-    padding: 16px;
-}
-
-.woman-photo{
     width: 100%;
-    height: 900px;
-    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-name-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
 
 footer{
@@ -428,11 +288,6 @@ footer{
     margin: 30px 0 15px 0;
 }
 
-.second-button{
-    width: 310px;
-    margin: 30px 0 0 0;
-}
-
 .first-button:hover{
     background-color: #ffffff;
     color: #000000;   
@@ -441,6 +296,11 @@ footer{
 .second-button:hover{
     background-color: #ffffff;
     color: #000000;
+}
+
+.second-button{
+    width: 310px;
+    margin: 30px 0 0 0;
 }
 
 .socials{
