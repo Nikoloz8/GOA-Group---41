@@ -525,3 +525,16 @@ footer{
 .copyright a:hover{
     filter: brightness(1.2);
 }
+
+.footer-circle-line{
+    display: flex;
+    background-color:rgb(243, 101, 35);
+}
+
+.circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: rgb(129, 33, 101);
+    margin-bottom: -10px;
+}
