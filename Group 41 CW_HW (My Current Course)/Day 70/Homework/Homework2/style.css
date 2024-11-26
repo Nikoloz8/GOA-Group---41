@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header section"
+    "aside1 aside2 section";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+    border: 2px solid black;
+}
+
+section{
+    grid-area: section;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.aside1{
+    grid-area: aside1;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.aside2{
+    grid-area: aside2;
+    background-color: blue;
+    border: 2px solid black;
+}

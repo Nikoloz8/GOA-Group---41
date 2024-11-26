@@ -77,8 +77,7 @@ li{
 }
 
 .img-container{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(255, 255, 255, 0.5) 100%),
-    url(./img/high-resolution-nature-landscape-l.jpg);
+    background-image: url(./img/high-resolution-nature-landscape-l.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -110,4 +109,136 @@ li{
 .about-me{
     margin-top: -150px;
     padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-me h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 100px;
+    letter-spacing: 20px;
+}
+
+.about-me p{
+    width: 700px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-top: 32px;
+    line-height: 1.6;
+}
+
+.contact{
+    background-color: #e5ff00;
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact:hover{
+    background-color: rgb(0, 196, 144);
+    cursor: pointer;
+}
+
+.projects{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.project{
+    width: 30%;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px #000000;
+    padding: 24px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project:hover{
+    box-shadow: 5px 5px 30px #ff2828;
+}
+
+.project img{
+    width: 100%;
+    height: 50%;
+    border-radius: 12px;
+}
+
+.project img:hover{
+    filter: brightness(1.3);
+}
+
+.project h4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.see-code{
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6a00;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.see-code:hover{
+    background-color: rgb(0, 196, 144);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contacts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.contacts-container{
+    width: 75%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.unnamed{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 16px;
 }
