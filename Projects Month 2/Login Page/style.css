@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 28px;
+    --normal-font-size: 16px;
+    --small-font-size: 13px;
+    --font-medium: 500;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, input, button {
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+body {
+    color: var(--white-color);
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.login__form {
+    position: relative;
+    background-color: hsla(0, 0%, 10%, 0.1);
+    border: 2px solid var(--white-color);
+    backdrop-filter: blur(8px);
+}
+
+.login__title {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 32px;
+}
+
+.login__content, .login__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__content {
+    row-gap: 28px;
+    margin-bottom: 24px;
+}
+
+.login__box {
+    border-bottom: 2px solid var(--white-color);
+    padding-left: 16px;
+}
+
+.login__icon, .login__eye {
+    font-size: 20px;
+}
+
+.login__input {
+    width: 100%;
+    padding: 13px;
+    background: none;
+    color: var(--white-color);
+    position: relative;
+    z-index: 1;
+}
+
+.login__box-input {
+    position: relative;
+}
+
+.login__label {
+    position: absolute;
+    left: 0;
+    top: 13px;
+    font-weight: var(--font-medium);
+    transition: top 0.3s, font-size 0.3s;
+}
+
+
+.login__check, .login__check-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__check {
+    margin-bottom: 24px;
+}
+
+.login__check-label, .login__forgot, .login__register {
+    font-size: var(--small-font-size);
+}
+
+.login__check-input {
+    margin-right: 8px;
+}
+
+.login__check-input {
+    width: 16px;
+    height: 16px;
+}
+
+.login__forgot {
+    color: var(--white-color);
+}
+
+.login__forgot:hover {
+    text-decoration: underline;
+}
+
+.login__button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.login__register {
+    text-align: center;
+}
+
+.login__register a {
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+}
+
+.login__register a:hover {
+    text-decoration: underline;
+
+}
+
+.login__input:focus+.login__label {  /* როცა მომხმარებელი დააჭერს ინფუთს, შესრულდება ქვემოთ მოცემული პროფერთიები. */
+    top: -12px;
+    font-size: var(--small-font-size);
+}
+
+.login {
+    justify-content: center;
+}
+
+.login__form {
+    width: 432px;
+    padding: 64px 48px 56px;
+    border-radius: 24px;
+}
+
+.login__title {
+    font-size: 32px;
+}
+
