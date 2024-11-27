@@ -1,0 +1,90 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+    background-image: url(https://i.pinimg.com/736x/48/6b/96/486b9698a04548209d072132cda6ba94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(216, 118, 47);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    font-size: 25px;
+}
+
+.black {
+    color: black;
+}
+
+.orng {
+    color: darkorange;
+}
+
+img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.underline {
+    font-size: 25px;
+    color: rgb(145, 62, 3);
+
+}
+
+.actor1 {
+    font-size: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actor2 {
+    font-size: 25px;
+    height: 300px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-text-container2 {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 450px;
+    margin-right: 600px;
+    margin-top: 100px;
+}
+
+.img-text-container2-center {
+    display: flex;
+    justify-content: center;
+}
+
+.img-text-container {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 600px;
+
+}
+
+.reviews {
+    font-size: 25px;
+}
