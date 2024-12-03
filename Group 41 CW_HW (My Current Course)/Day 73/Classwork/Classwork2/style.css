@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: black;
+    border-radius: 16px;
+    width: 500px;
+    color: #ffffff;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-family: cursive;
+    font-size: 24px;
+    padding: 24px;
+    transition: background-color 5s, width 5s, height 5s;
+}
+
+button:hover{
+    background-color: steelblue;
+    width: 700px;
+    height: 100px;
+}
