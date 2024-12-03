@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #b7dbff;
+    background-color: #bddeff;
     font-family: Oswald;
 }
 
@@ -25,7 +25,8 @@ header {
     width: 100%;
     z-index: 100;
     flex-wrap: wrap;
-    font-family: Oswald;
+    border-bottom: 2px solid #17a2b8;
+    border: 2px solid #17a2b8;
 }
 
 header h3 {
