@@ -25,8 +25,6 @@ header {
     width: 100%;
     z-index: 100;
     flex-wrap: wrap;
-    border-bottom: 2px solid #17a2b8;
-    border: 2px solid #17a2b8;
 }
 
 header h3 {
@@ -206,18 +204,19 @@ li {
 }
 
 .about-me p {
-    width: 850px;
+    width: 550px;
     text-align: center;
     font-size: 24px;
     letter-spacing: 4px;
-    margin-top: 32px;
-    line-height: 1.6;
+    line-height: 1.5;
     transition: 1s;
     color: #000000;
     text-align: justify;
     border: 1px solid black;
     padding: 16px;
     border-radius: 20px;
+    margin-right: 50px;
+    height: 375px;
 }
 
 .contact {
@@ -393,13 +392,36 @@ footer {
 }
 
 .me{
-    width: 235px;
-    height: 288px;
-    border-radius: 100%;
-    margin-top: 30px;
+    width: 550px;
+    height: 380px;
+    border-radius: 10%;
     border: 3px solid rgb(0, 132, 255);
 }
 
+.img-text-container{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#welcome{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1270px) {
+    .about-me p {
+        margin: 50px 0 0 0;
+        order: 1;
+    }
+
+    .me{
+        order: 0;
+    }
+
+}
 
 @media screen and (max-width: 1200px) {
     .header-container {
@@ -470,10 +492,16 @@ footer {
 
     .about-me p {
         width: 500px;
+        height: 400px;
     }
 
     .contact:hover{
         width: 650px;
+    }
+
+    .me{
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -526,7 +554,7 @@ footer {
     }
 
     .img-container {
-        bottom: 240px;
+        bottom: 300px;
     }
 
     ul {
@@ -562,11 +590,22 @@ footer {
     .contact:hover{
         width: 500px;
     }
+
+    .about-me{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 560px) {
     .about-me p {
         width: 400px;
+        height: 480px;
+    }
+
+    .me{
+        width: 400px;
+        height: 300px;
+        margin: 0 0 50px 0;
     }
 
     .name-container h2 {
@@ -597,6 +636,12 @@ footer {
 @media screen and (max-width: 440px) {
     .about-me p{
         width: 300px;
+        height: 720px;
+    }
+
+    .me{
+        width: 300px;
+        height: 230px;
     }
 
     .contact{
@@ -617,12 +662,13 @@ footer {
         font-size: 20px;
 
     }
+
+    ul{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    .about-me p{
-        width: 280px;
-    }
 
     .contact{
         width: 200px;
@@ -645,4 +691,5 @@ footer {
     .project:hover{
         width: 76%;
     }
+    
 }
