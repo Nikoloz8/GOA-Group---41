@@ -19,7 +19,7 @@ print(551 * 663)
 print(55642 * 5612)
 
 print(500 / 50)
-print(625 / 25)
+print(625 / 25) 
 print(750 / 250)
 print(1000 / 100)
 print(5 / 66)
