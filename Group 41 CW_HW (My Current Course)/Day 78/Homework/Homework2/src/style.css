@@ -1,0 +1,54 @@
+@tailwind base; /* გამოიყენება იმისთვის, რომ ელემენტს გლობალურად შევუცვალოთ სტილი. */
+@tailwind components; /* ეს გამოიყენება იმისთვის, რომ შევქმნათ ჩვენი კლასები, რომელსაც მივანიჭებთ სტილებს. */
+@tailwind utilities; /* ეს გამოიყენება იმისთვის, რომ ელემენტს კლასის მიხედვით მივანიჭოთ სტილი. */
+
+
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0099ff;
+    }
+
+    h1 {
+        font-family: 'Georgia', serif;
+        font-weight: 700;
+    }
+
+    p {
+        line-height: 1.6;
+        color: #333;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition duration-300;
+    }
+
+    .card {
+        @apply bg-white p-6 rounded-lg shadow-lg max-w-xs;
+    }
+}
+
+@layer utilities {
+    .rotate-45 {
+        transform: rotate(45deg);
+    }
+
+    .skew-15 {
+        transform: skewX(15deg);
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
